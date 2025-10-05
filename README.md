@@ -1,3 +1,22 @@
+Airport Management System
+
+The Airport Management System is a Java-based desktop application developed using Java Swing and MySQL to manage airline data efficiently. It provides a graphical interface that allows users to perform essential database operations such as inserting, updating, deleting, and viewing airline records. This project highlights the integration of Java GUI components with MySQL using JDBC (Java Database Connectivity) for smooth data management.
+
+The application begins with a secure login window, ensuring that only authorized users can access the main system. After successful login, users are directed to the main dashboard, where airline information is displayed in a structured table format. The interface is built using Java Swing components like JFrame, JTable, JButton, and JTextField, designed with attractive colors and a user-friendly layout.
+
+The backend uses MySQL to store and retrieve airline details such as airline ID, name, fleet size, headquarters, and revenue. Using JDBC, the application connects to the MySQL database and executes SQL queries for various operations. Each action, such as adding or deleting an airline, provides clear success or error messages to the user, ensuring smooth interaction and feedback.
+
+Key features of this project include a login authentication system, the ability to perform full CRUD (Create, Read, Update, Delete) operations, real-time table refresh to display updated data, and a clear field option for easy data entry. The interface also includes color-coded buttons and neatly aligned table cells to improve readability and user experience.
+
+To set up the project, users must create a MySQL database named “airlines” and define a table with columns for ID, Name, Fleet Size, Headquarters, and Revenue. The database credentials in the code can be customized to match the user’s MySQL setup. Additionally, the MySQL Connector/JAR file should be added to the project for database connectivity.
+
+This project is an excellent learning example for students and beginners who want to understand how Java Swing applications can be integrated with a database system. It demonstrates practical implementation of event handling, CRUD operations, and database interaction, making it a complete mini-project for learning Java and MySQL together.
+
+Author: Yuvan Shankar
+Technologies Used: Java Swing, JDBC, MySQL
+Category: Desktop Application / Database Management System
+
+
 # Airport-management-system
 
 
